@@ -1,0 +1,36 @@
+<testsuites>
+  <testsuite errors="0"
+             name="main_pl"
+             time="0.251255035400391"
+             failures="0"
+             tests="9">
+    <testcase name="1 - use test;" time="0.234940052032471"></testcase>
+    <testcase name="2 - We Got A Legit IP" time="0.00138187408447266"></testcase>
+    <testcase time="0.000515222549438477"
+              name="3 - We Got The Classification"></testcase>
+    <testcase name="4 - We Got The Severity" time="0.000491857528686523"></testcase>
+    <testcase name="5 - We Got The Number of Hosts" time="0.00113701820373535"></testcase>
+    <testcase time="0.000396013259887695"
+              name="6 - We Got The Last IP"></testcase>
+    <testcase time="0.000598907470703125" name="7 - We Got The Range"></testcase>
+    <testcase name="8 - We Got The Flag" time="0.000349998474121094"></testcase>
+    <testcase time="0.000384092330932617"
+              name="9 - We Got The Source"></testcase>
+    <testcase name="(teardown)" time="0.00794196128845215" />
+    <system-out><![CDATA[ok 1 - use test;
+Hard coded input
+ok 2 - We Got A Legit IP
+ok 3 - We Got The Classification
+ok 4 - We Got The Severity
+Number of Available Hosts 1024 
+ok 5 - We Got The Number of Hosts
+ok 6 - We Got The Last IP
+14.102.172.0 - 14.102.176.0 
+ok 7 - We Got The Range
+ok 8 - We Got The Flag
+ok 9 - We Got The Source
+1..9
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>

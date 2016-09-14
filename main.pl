@@ -16,7 +16,7 @@ my $alert = blacklistcaller->new;
 print "Hard coded input\n";
 
 ############### GET THE IP
-$alert->ip("14.102.172.0/22");
+$alert->ip("36.255.60.0/22");
 
 if ( length $alert->ip > 0 )
 	{
